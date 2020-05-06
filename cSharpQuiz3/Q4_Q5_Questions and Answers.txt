@@ -1,4 +1,8 @@
 ﻿---------------------------------------------------------------------
+Question 3: It has been provided in the other Console project = ConsoleApp_Question3LINQ
+
+            Code written in Program.cs
+---------------------------------------------------------------------
 Question 4: What is the difference between code-first approach and 
             database-first approach in Entity Framework?
 
