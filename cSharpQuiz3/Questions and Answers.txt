@@ -1,0 +1,43 @@
+﻿---------------------------------------------------------------------
+Question 4: What is the difference between code-first approach and 
+            database-first approach in Entity Framework?
+
+
+
+Code-First Approach:
+
+* When there is NO existing database for the application.
+
+* Developer starts writing the entities (domain classes) and 
+  context class first and then create the database from these 
+  classes using migration commands.
+
+* It has full control over the code rather than database activity.
+
+* All the database operations from the code.
+
+
+
+Database-First Approach:
+
+* When database is ready then Entity Framework will complete its duty and create POCO entities.
+
+* Modify the database manually and update model from database.
+
+* It has full control over the database.
+
+* Entity framework can create model classes based on tables and columns from relational database.
+---------------------------------------------------------------------
+Question 5: What is the MVVM design pattern?
+
+
+
+Model + View + ViewModel (M-V-VM pattern) is about organizing and 
+structuring the code to write maintainable, testable and extensible applications.
+
+* Model − It simply holds the data and has nothing to do with any of the business logic.
+
+* ViewModel − It acts as the link between the Model and View.
+
+* View − It simply holds the formatted data and essentially delegates everything to the Model.
+---------------------------------------------------------------------
