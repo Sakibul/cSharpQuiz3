@@ -8,10 +8,10 @@ namespace cSharpQuiz3
 {
     class Student
     {
-        private int Id;
-        private string FirstName;
-        private string LastName;
-        private bool isRegistered;
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public bool isRegistered { get; set; }
 
         public Student(int id, string firstName, string lastName, bool isRegistered)
         {
@@ -19,6 +19,11 @@ namespace cSharpQuiz3
             this.FirstName = firstName;
             this.LastName = lastName;
             this.isRegistered = isRegistered;
+        }
+
+        public override string ToString()
+        {
+            return $"{this.Id} :: {this.FirstName} :: {this.LastName} :: Registered = {isRegistered}";
         }
     }
 }
